@@ -8,6 +8,8 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+console.log("uri", process.env.MONGO_URI);
+
 
 // Middleware
 app.use(cors());
